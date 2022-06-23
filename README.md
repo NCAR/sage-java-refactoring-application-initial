@@ -1,21 +1,21 @@
-# Title
+# SAGE Refactor Applicaiton
 
-Please read these directions completely prior to starting.
+Please read these directions completely prior to starting any work.
 
-## Goal
+## Goals
 
-This programming exercise is going to be used to gather understanding on your java programming abilities.
+This programming exercise is going to be used to gather understanding of your Java programming abilities.
 
 We are looking for the following:
 * Object-oriented programming analysis and design principles.
 * Understanding of high cohesion and low coupling.
 * Ability to identify bugs and/or poorly written code and to fix/refactor that code.
-* Understanding of Clean Code principles.
-* Understanding and knowledge of the Spring, Spring Boot, and Java web development environment.
+* Demonstration of Clean Code principles.
+* Understanding and knowledge of the Spring, Spring Boot, and Java web application environment.
 * Understanding of the Java development environment including: maven, IDEs, etc...
 * Understanding and ability to apply well known architectural and design pattern principles.
 * Creation and usage of unit tests.
-* Understanding of the HTTP protocol and RESTful api principles.
+* Understanding of the HTTP protocol and RESTful API principles.
 * Ability to prioritize work.
 
 ## Prerequisites
@@ -30,16 +30,21 @@ We are looking for the following:
 ~~~
 $ git remote set-url origin https://git-repo/new-repository.git
 ~~~
+* Push to your remote repository on Github.
+* Review the given source code and other resources.
+* Add work items to the BACKLOG.md file.
 * Please spend approximately 2 to 4 hours working on this application.
-* Please only focus on
+* Please only focus on fixing the existing code to the best of your knowledge, skills, and abilities.  Please do not
+add any new functionality.
 * Work in a manner that is consistent with your typical work style.
-* Commit to your repository as you feel a section of work is done.
-* There is more work than you can reasonably get done in 4 hours, please use the BACKLOG.md file to record any work that
+* Commit to your repository as you feel a section of work is done.  We would like to see your workflow if possible.
+* There is more work than can reasonably get done in 4 hours, please use the BACKLOG.md file to record any work that
   needs to be completed but you were unable to get to.  Order that list in highest to lowest priority.
-* When done with all your work, please apply your name to the ACKNOWLEDGEMENT-OF-WORK.md file and commit that file.
+* When done with all your work, please apply your full name to the ACKNOWLEDGEMENT-OF-WORK.md file and commit that file.
   This act implies that all the work completed is your own and was done without any direct personal assistance.
-* Push all your changes to your **private** repository on GitHub.
-* Email us letting us know that you are done and we will reply with further instructions.
+* Push all your changes to your **private** repository on GitHub.  **DO NOT** create a pull request against our
+repository.
+* Email us letting us know that you are done, and we will reply with further instructions.
 
 ## Deployment
 
@@ -62,4 +67,3 @@ $ git remote set-url origin https://git-repo/new-repository.git
 ## Acknowledgements
 
 This application is a close clone of https://github.com/bsnyder-hybris/java-refactoring-exercise.
-
