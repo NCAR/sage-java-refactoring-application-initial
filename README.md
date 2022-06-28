@@ -13,7 +13,7 @@ We are looking for the following knowledge and/or competencies:
 * Ability to identify bugs and/or poorly written code and to fix/refactor that code
 * Demonstration of Clean Code principles
 * Understanding of the Spring, Spring Boot, and Java web application environment
-* Understanding of the Java development environment including: maven, IDEs, Tomcat, etc...
+* Understanding of the Java development environment including: maven, IDEs, Tomcat, Git, etc...
 * Ability to apply well-known layered architectural and design pattern principles
 * Creation and usage of unit tests
 * Understanding of the HTTP protocol and RESTful API principles
