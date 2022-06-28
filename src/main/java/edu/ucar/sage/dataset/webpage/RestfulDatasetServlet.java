@@ -44,12 +44,12 @@ public class RestfulDatasetServlet {
     @RequestMapping(value = "/get")
     public Dataset getDataset(@RequestParam("title") String title) {
 
-        if (datasetDao == null) {
+         if (datasetDao == null) {
 
-            datasetDao = DatasetDao.getInstance();
-        }
+             datasetDao = DatasetDao.getInstance();
+         }
 
-        return datasetDao.getDataset(title);
+         return datasetDao.getDataset(title);
     }
 
     @RequestMapping(value = "/update")
@@ -83,12 +83,12 @@ public class RestfulDatasetServlet {
     @RequestMapping(value = "/getAll")
     public ArrayList<Dataset> getAll() {
 
-        if (datasetDao == null) {
+       if (datasetDao == null) {
 
-            datasetDao = DatasetDao.getInstance();
-        }
+           datasetDao = DatasetDao.getInstance();
+       }
 
-        return datasetDao.datasetList;
+       return datasetDao.datasetList;
     }
 
     @RequestMapping(value = "/delete")
@@ -110,4 +110,9 @@ public class RestfulDatasetServlet {
 
         return new ResponseEntity<>("deleted", HttpStatus.OK);
     }
+
+
 }
+
+
+
