@@ -5,7 +5,7 @@ Please read these directions completely prior to starting any work.
 ## Goals
 
 This programming exercise is meant to be used to gather understanding of your Java web application programming
-abilities.
+abilities and processes.
 
 We are looking for the following knowledge and/or competencies:
 * Object-oriented programming analysis and design principles.
@@ -40,7 +40,7 @@ long as you see fit, but we **strongly** recommend that you only work for 4 hour
 add any new functionality.
 9. Work in a manner that is consistent with your typical work style.
 10. Commit to your repository as you feel a section of work is done.  We would like to see your workflow if possible.
-11. There is more work than can reasonably get done in 4 hours, please use the BACKLOG.md file to record any work that
+11. There is more work than can reasonably get done in 4 hours. Please use the BACKLOG.md file to record any work that
   needs to be completed but you were unable to get to.  Order that list in highest to lowest priority.
 12. When done with all your work, please apply your full name to the ACKNOWLEDGEMENT-OF-WORK.md file and commit that file.
   This act implies that all the work completed is your own and was done without any direct personal assistance.
@@ -63,10 +63,10 @@ instance.
 ## Tips and Encouragement
 
 * Take some time to look through the source code prior to starting your work.
-* It is recommended using an IDE for this work, we recommend Intellij, Eclipse, or Visual Studio Code.
+* It is recommended using an IDE for this work. We recommend Intellij, Eclipse, or Visual Studio Code.
 * A friendly reminder that this is a multithreaded environment.
 * Unit tests are expected be written as well as other production level code.
 
 ## Acknowledgements
 
-This application is a close clone of https://github.com/bsnyder-hybris/java-refactoring-exercise.
+This application is inspired by https://github.com/bsnyder-hybris/java-refactoring-exercise.
