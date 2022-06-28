@@ -12,12 +12,10 @@ public class DatasetDAOTest {
     public void addDataset() {
 
         datasetDao = DatasetDao.getInstance();
-
         Dataset dataset = new Dataset();
         dataset.setTitle("test-title");
         dataset.setDescription("test-description");
         dataset.setKeywords(Arrays.asList("atmosphere", "aerosols"));
-
         datasetDao.saveDataset(dataset);
     }
 
@@ -28,6 +26,7 @@ public class DatasetDAOTest {
 
         Dataset dataset = new Dataset();
         dataset.setTitle("test-title");
+        
         dataset.setDescription("test-description");
         dataset.setKeywords(Arrays.asList("atmosphere", "aerosols"));
 

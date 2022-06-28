@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-public class RESTFulDatasetServletTest {
+public class RESTFulDatasetServletTest{
 
     @Test
-    public void addDataset() {
+    public void addDataset(){
         RestfulDatasetServlet servlet = new RestfulDatasetServlet();
 
         Dataset dataset = servlet.addDataset("integration-title", "integration-description", Arrays.asList("keyword1", "keyword2"));
@@ -19,7 +19,7 @@ public class RESTFulDatasetServletTest {
     }
 
     @Test
-    public void updateDataset() {
+    public void updateDataset(){
         RestfulDatasetServlet servlet = new RestfulDatasetServlet();
 
         Dataset dataset = servlet.addDataset("integration-title", "integration-description", Arrays.asList("keyword1", "keyword2"));

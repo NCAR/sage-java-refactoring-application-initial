@@ -50,7 +50,9 @@ public class RestfulDatasetServlet {
     }
 
     @RequestMapping(value = "/update")
-    public Dataset updateDataset(@RequestParam("title") String title, @RequestParam("description") String description, @RequestParam("keywords") List<String> keywords) {
+    public Dataset updateDataset(@RequestParam("title") String title,
+                                 @RequestParam("description") String description,
+                                 @RequestParam("keywords") List<String> keywords) {
 
         Dataset dataset = new Dataset();
         dataset.setTitle(title);
@@ -70,10 +72,7 @@ public class RestfulDatasetServlet {
     @RequestMapping(value = "/find")
     public Dataset findDataset(@RequestParam("title") String title) {
 
-        if (datasetDao == null) {
-
-            datasetDao = DatasetDao.getInstance();
-        }
+        if (datasetDao == null) { datasetDao = DatasetDao.getInstance(); }
 
         return datasetDao.findDataset(title);
     }
@@ -90,7 +89,9 @@ public class RestfulDatasetServlet {
     }
 
     @RequestMapping(value = "/delete")
-    public ResponseEntity<String> delete(@RequestParam("title") String title, @RequestParam("description") String description, @RequestParam("keywords") List<String> keywords) {
+    public ResponseEntity<String> delete(@RequestParam("title") String title,
+            @RequestParam("description") String description,
+            @RequestParam("keywords") List<String> keywords) {
 
         Dataset dataset = new Dataset();
         dataset.setTitle(title);
