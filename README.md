@@ -63,7 +63,7 @@ instance.
 ## Tips and Encouragement
 
 * Take some time to look through the source code prior to starting your work.
-* It is recommended using an IDE for this work. We recommend Intellij, Eclipse, or Visual Studio Code.
+* It is recommended to use an IDE for this work. We recommend Intellij, Eclipse, or Visual Studio Code.
 * A friendly reminder that this is a multithreaded environment.
 * Unit tests are expected be written as well as other production level code.
 
