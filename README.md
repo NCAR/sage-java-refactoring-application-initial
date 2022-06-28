@@ -5,7 +5,7 @@ Please read these directions completely prior to starting any work.
 ## Goals
 
 This programming exercise is meant to be used to gather understanding of your Java web application programming
-abilities.
+abilities and processes.
 
 We are looking for the following knowledge and/or competencies:
 * Object-oriented programming analysis and design principles
@@ -69,4 +69,4 @@ instance.
 
 ## Acknowledgements
 
-This application is a close clone of https://github.com/bsnyder-hybris/java-refactoring-exercise.
+This application is inspired by https://github.com/bsnyder-hybris/java-refactoring-exercise.
