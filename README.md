@@ -8,20 +8,20 @@ This programming exercise is meant to be used to gather understanding of your Ja
 abilities.
 
 We are looking for the following knowledge and/or competencies:
-* Object-oriented programming analysis and design principles.
-* Understanding of high cohesion and low coupling.
-* Ability to identify bugs and/or poorly written code and to fix/refactor that code.
-* Demonstration of Clean Code principles.
-* Understanding and knowledge of the Spring, Spring Boot, and Java web application environment.
+* Object-oriented programming analysis and design principles
+* Understanding of high cohesion and low coupling
+* Ability to identify bugs and/or poorly written code and to fix/refactor that code
+* Demonstration of Clean Code principles
+* Understanding of the Spring, Spring Boot, and Java web application environment
 * Understanding of the Java development environment including: maven, IDEs, Tomcat, etc...
-* Understanding and ability to apply well known layered architectural and design pattern principles.
-* Creation and usage of unit tests.
-* Understanding of the HTTP protocol and RESTful API principles.
-* Ability to prioritize work.
+* Ability to apply well-known layered architectural and design pattern principles
+* Creation and usage of unit tests
+* Understanding of the HTTP protocol and RESTful API principles
+* Ability to prioritize work
 
 ## Prerequisites
 
-* You must have a [GitHub](https://github.com/) account.  If you don't already have an account you may [register for one](https://github.com/signup).
+* You must have a [GitHub](https://github.com/) account.  If you don't already have an account, you may [register for one](https://github.com/signup).
 
 ## Instructions/Directions
 
@@ -40,10 +40,10 @@ long as you see fit, but we **strongly** recommend that you only work for 4 hour
 add any new functionality.
 9. Work in a manner that is consistent with your typical work style.
 10. Commit to your repository as you feel a section of work is done.  We would like to see your workflow if possible.
-11. There is more work than can reasonably get done in 4 hours, please use the BACKLOG.md file to record any work that
-  needs to be completed but you were unable to get to.  Order that list in highest to lowest priority.
+11. There is more work than can reasonably be done in 4 hours.  Please use the BACKLOG.md file to record any work that
+  needs to be completed but that you were unable to get to.  Order that list in highest to lowest priority.
 12. When done with all your work, please apply your full name to the ACKNOWLEDGEMENT-OF-WORK.md file and commit that file.
-  This act implies that all the work completed is your own and was done without any direct personal assistance.
+  This act attests that all the work completed is your own and was done without any direct personal assistance.
 13. Push all your changes to your **private** repository on GitHub.  **DO NOT** create a pull request against our
 repository.
 14. Email us letting us know that you are done, and we will reply with further instructions.
@@ -56,16 +56,16 @@ instance.
 
 ## Business Rules
 
-* A Dataset must have a title.
-* Title must be unique (case insensitive).
-* A Dataset must have at least one Keyword.
+* Datasets must have a title.
+* Titles must be unique (case insensitive).
+* Datasets must have at least one Keyword.
 
 ## Tips and Encouragement
 
 * Take some time to look through the source code prior to starting your work.
-* It is recommended using an IDE for this work, we recommend Intellij, Eclipse, or Visual Studio Code.
+* We recommend using an IDE such as Intellij, Eclipse, or Visual Studio Code for this work.
 * A friendly reminder that this is a multithreaded environment.
-* Unit tests are expected be written as well as other production level code.
+* We expect you to write unit tests as well as other production level code.
 
 ## Acknowledgements
 
