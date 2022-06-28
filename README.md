@@ -1,4 +1,4 @@
-# SAGE Refactor Applicaiton
+# SAGE Refactor Application
 
 Please read these directions completely prior to starting any work.
 
@@ -48,8 +48,9 @@ repository.
 
 ## Deployment
 
-* This is a Spring Boot application and should be run by the DatasetApplication class.  This will start the application
-  in an embedded [Tomcat 9](https://tomcat.apache.org/tomcat-9.0-doc/index.html) instance.
+* This is a Spring Boot application and should be run by running the DatasetApplication class.
+* This will start the application in an embedded [Tomcat 9](https://tomcat.apache.org/tomcat-9.0-doc/index.html)
+instance.
 
 ## Business Rules
 
@@ -62,7 +63,7 @@ repository.
 * Take some time to look through the source code prior to starting your work.
 * It is recommended using an IDE for this work, we recommend Intellij, Eclipse, or Visual Studio Code.
 * A friendly reminder that this is a multithreaded environment.
-* Unit test should be written as well as our normal production level code.
+* Unit tests should be written as well as normal production code.
 
 ## Acknowledgements
 
