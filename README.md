@@ -4,16 +4,17 @@ Please read these directions completely prior to starting any work.
 
 ## Goals
 
-This programming exercise is going to be used to gather understanding of your Java programming abilities.
+This programming exercise is meant to be used to gather understanding of your Java web application programming
+abilities.
 
-We are looking for the following:
+We are looking for the following knowledge and/or competencies:
 * Object-oriented programming analysis and design principles.
 * Understanding of high cohesion and low coupling.
 * Ability to identify bugs and/or poorly written code and to fix/refactor that code.
 * Demonstration of Clean Code principles.
 * Understanding and knowledge of the Spring, Spring Boot, and Java web application environment.
-* Understanding of the Java development environment including: maven, IDEs, etc...
-* Understanding and ability to apply well known architectural and design pattern principles.
+* Understanding of the Java development environment including: maven, IDEs, Tomcat, etc...
+* Understanding and ability to apply well known layered architectural and design pattern principles.
 * Creation and usage of unit tests.
 * Understanding of the HTTP protocol and RESTful API principles.
 * Ability to prioritize work.
@@ -24,27 +25,28 @@ We are looking for the following:
 
 ## Instructions/Directions
 
-* Please clone this repository to your local development environment.
-* Create a new **private** repository on your personal GitHub account.
-* Change the remote origin of the cloned repository to your newly create repository on Github.
+1. Clone this repository to your local development environment.
+2. Create a new **private** repository on your personal GitHub account.
+3. Change the remote origin of the cloned repository to your newly create repository on Github.
 ~~~
 $ git remote set-url origin https://git-repo/new-repository.git
 ~~~
-* Push to your remote repository on Github.
-* Review the given source code and other resources.
-* Add work items to the BACKLOG.md file.
-* Please spend approximately 2 to 4 hours working on this application.
-* Please only focus on fixing the existing code to the best of your knowledge, skills, and abilities.  Please do not
+4. Push to your remote repository on Github.
+5. Review the given source code and other resources.
+6. Add work items to the BACKLOG.md file.
+7. Please spend approximately 2 to 4 hours working on this application.  You are free to work on this application as
+long as you see fit, but we **strongly** recommend that you only work for 4 hours maximum.
+8. Focus on fixing the existing code to the best of your knowledge, skills, and abilities.  Please do not
 add any new functionality.
-* Work in a manner that is consistent with your typical work style.
-* Commit to your repository as you feel a section of work is done.  We would like to see your workflow if possible.
-* There is more work than can reasonably get done in 4 hours, please use the BACKLOG.md file to record any work that
+9. Work in a manner that is consistent with your typical work style.
+10. Commit to your repository as you feel a section of work is done.  We would like to see your workflow if possible.
+11. There is more work than can reasonably get done in 4 hours, please use the BACKLOG.md file to record any work that
   needs to be completed but you were unable to get to.  Order that list in highest to lowest priority.
-* When done with all your work, please apply your full name to the ACKNOWLEDGEMENT-OF-WORK.md file and commit that file.
+12. When done with all your work, please apply your full name to the ACKNOWLEDGEMENT-OF-WORK.md file and commit that file.
   This act implies that all the work completed is your own and was done without any direct personal assistance.
-* Push all your changes to your **private** repository on GitHub.  **DO NOT** create a pull request against our
+13. Push all your changes to your **private** repository on GitHub.  **DO NOT** create a pull request against our
 repository.
-* Email us letting us know that you are done, and we will reply with further instructions.
+14. Email us letting us know that you are done, and we will reply with further instructions.
 
 ## Deployment
 
@@ -63,7 +65,7 @@ instance.
 * Take some time to look through the source code prior to starting your work.
 * It is recommended using an IDE for this work, we recommend Intellij, Eclipse, or Visual Studio Code.
 * A friendly reminder that this is a multithreaded environment.
-* Unit tests should be written as well as normal production code.
+* Unit tests are expected be written as well as other production level code.
 
 ## Acknowledgements
 
