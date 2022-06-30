@@ -5,25 +5,27 @@ import edu.ucar.sage.dataset.webpage.RestfulDatasetServlet;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class RESTFulDatasetServletTest{
 
-    @Test
-    public void addDataset(){
-        RestfulDatasetServlet servlet = new RestfulDatasetServlet();
+	@Test
+	public void addDataset(){
+		RestfulDatasetServlet servlet = new RestfulDatasetServlet();
 
-        Dataset dataset = servlet.addDataset("integration-title", "integration-description", Arrays.asList("keyword1", "keyword2"));
+        Dataset dataset = servlet.addDataset("integration-title", "integration-description", new ArrayList<>());
 
-        Assertions.assertEquals("integration-title", dataset.getTitle());
-    }
+		Assertions.assertEquals("integration-title", dataset.getTitle());
+	}
 
-    @Test
-    public void updateDataset(){
-        RestfulDatasetServlet servlet = new RestfulDatasetServlet();
+	@Test
+	public void updateDataset(){
+		RestfulDatasetServlet servlet = new RestfulDatasetServlet();
 
-        Dataset dataset = servlet.addDataset("integration-title", "integration-description", Arrays.asList("keyword1", "keyword2"));
+        addDataset();
 
-        Assertions.assertEquals("integration-title", dataset.getTitle());
-    }
+        Dataset dataset = servlet.updateDataset("integration-title", "integration-description-updated", new ArrayList<>());
+
+		Assertions.assertEquals("integration-title", dataset.getTitle());
+	}
 }
